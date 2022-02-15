@@ -1,0 +1,41 @@
+body{
+    margin-top: 15rem; 
+    text-align: center;
+    background-color: rgb(165, 253, 244);
+}
+
+.btn{
+
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(247, 203, 203);
+    border: 0.15rem solid black;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+table ,th,td{
+    border: 2px solid black;
+    padding: 1rem;
+}
+.edit{
+    margin-right: 0.3rem;
+}
+.edit, .delete{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(247, 203, 203)
+}
+
+.edit:hover, .delete:hover, .btn:hover
+{
+    color: white;
+    background-color: rgb(252, 180, 180);
+}
